@@ -66,7 +66,7 @@ if len(filepaths) == 0:
     print(f'Keine Dateien zum Bearbeiten gefunden in\n{sourcepath}\n### Skript wird abgebrochen. ###')
 else:
     for p_orig in tqdm(filepaths):
-        print('p_orig:', p_orig)
+        # print('p_orig:', p_orig)
         df = []
         df = camt2df(p_orig)
         alle_df.append(df)
