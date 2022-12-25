@@ -98,7 +98,7 @@ else:
     # dd['entry_details'][4][0]['transactions'][i] # ergibt Transaktion i aus einem Batch 
 
 
-# # Iterieren durch ein dict https://www.tutorialspoint.com/How-to-recursively-iterate-a-nested-Python-dictionary
+# # Iterieren durch ein dict ergänzt für das xml https://www.tutorialspoint.com/How-to-recursively-iterate-a-nested-Python-dictionary
 # def iterdict(d):
 #     for k,v in d.items():        
 #        if isinstance(v, dict):

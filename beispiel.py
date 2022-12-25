@@ -9,8 +9,8 @@ Beispielskript für die Verarbeitung von CAMT053-Dateien und Export als Excel/CS
 from iso_camt053_to_df import camt2df
 
 
-source_xml = 'CAMT053_071222_sample.xml'
-target_xlsx = 'CAMT053_071222_sample.xlsx'
+source_xml = r'..\00 Daten\sample\CAMT053_071222_sample.xml'
+target_xlsx = r'..\00 Daten\sample\CAMT053_071222_sample.xlsx'
 
 
 df = camt2df(source_xml)
