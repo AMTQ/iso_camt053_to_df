@@ -1,6 +1,9 @@
 # -*- coding: utf-8 -*-
 """
 # iso_camt053_to_csv
+
+**WARNING! This library does not guarantee completenes and may contain bugs. Use at your own risk.**
+
  Export data from standardized ISO CAMT053 to something human-readable.
  
  Convert export-files from e-banking of Migrosbank in the format ISO CAMT053
