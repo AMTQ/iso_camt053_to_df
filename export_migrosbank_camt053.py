@@ -11,6 +11,7 @@ Getestet mit Export Migrosbank Stand 25.12.2022, AMTQ.
 from iso_camt053_to_df import camt2df
 from pathlib import Path
 from tqdm import tqdm
+import pandas as pd
 
 
 # Wo liegen die zu verarbeitenden Dateien
@@ -74,7 +75,6 @@ else:
         
         # print(p_orig, '\n-->', p_ziel,'\n')
         df = df.sort_values(['Datum', 'IBAN', 'Betreff', 'Stichwort'], ascending=False)
-        df.drop_duplicates(inplace=True)
         
         df.to_excel(p_ziel, index=False)
             
